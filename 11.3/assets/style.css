@@ -1,0 +1,52 @@
+@import url(../../assets/css/style.css);
+
+body {
+    font-size: clamp(1rem, 1.1rem, 2rem);
+}
+
+.back {
+    text-align: left;
+    display: block;
+}
+
+.air-blocks {
+    width: clamp(15%, 25%, 55%);
+}
+
+.head-info {
+    font-size: 3.9vh;
+    display: flex;
+    align-items: center;
+}
+
+.header-info {
+    display: inline-block;
+    text-align: center;
+}
+
+.back-arrow {
+    font-size: 3.7vh;
+}
+
+.main-content {
+    text-align: left;
+}
+
+.content {
+    margin-left: 2rem;
+    font-size: 2.9vh;
+    font-family: SourceCodePro;
+}
+
+.content-header {
+    font-family: SourceCodePro;
+}
+
+.decp {
+    list-style: none;
+    padding: 10px;
+}
+
+.info-w {
+    margin: 5px 4px 10px 30px;
+}

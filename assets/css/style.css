@@ -1,0 +1,40 @@
+@import url(web-security.css);
+@import url(font.css);
+
+body {
+    font-family: ComicNeue;
+    text-align: center;
+}
+
+.box:hover {
+    box-shadow: 0 0 5px 1px #000;
+} 
+
+.box-border {
+    border: 0.1px solid #fff;
+    border-radius: calc(2.452px + 0.0023%);
+    padding: 35px;
+    margin: 10px 38% 20px 38%;
+}
+
+.link {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #006effe7;
+    text-decoration: underline;
+}
+
+.link:visited {
+    color: #5572c0c2;
+}
+
+.link:active {
+    color: #0f0;
+}
+
+.info {
+    cursor: help;
+}
