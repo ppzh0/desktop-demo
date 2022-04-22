@@ -1,0 +1,47 @@
+@import url(../../assets/css/font.css);
+@import url(../../assets/css/web-security.cs);
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.box-h1 {
+    font-family: SourceCodePro;
+    text-align: center;
+    margin: 21.400px 10px 0 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-m {
+    width: clamp(300px, 50%, 350px);
+    margin: 10px auto;
+    box-shadow: 0 0 70px 0 rgba(70, 70, 70, 0.334);
+}
+
+.des-p {
+    padding: clamp(2px, 3px, 5px);
+    margin: 18px;
+    font-family: Lucon;
+    line-height: 1.3rem;
+}
+
+.pak-na {
+    border-bottom: 1px dashed #364abd79;
+}
+
+.download-section {
+    text-align: center;
+}
+
+.down-header {
+    font-family: ComicNeue;
+}
+
+.flex>img {
+    margin: 10px;
+}
