@@ -1,4 +1,4 @@
-ErrorDocument 403 /403.html
-ErrorDocument 404 /404.html
-ErrorDocument 500 /500.html
-ErrorDocument 505 /505.html
+ErrorDocument 403 /desktop-demo/403.html
+ErrorDocument 404 /desktop-demo/404.html
+ErrorDocument 500 /desktop-demo/500.html
+ErrorDocument 505 /desktop-demo/505.html
