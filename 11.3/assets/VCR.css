@@ -45,3 +45,13 @@
 .flex>img {
     margin: 10px;
 }
+
+.link {
+    text-decoration: none;
+    color: #4aa3df;
+    font-family: ComicNeue;
+}
+
+.link:hover {
+    border-bottom: 1px dashed;
+}
