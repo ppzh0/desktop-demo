@@ -6,6 +6,10 @@ body {
     text-align: center;
 }
 
+.box {
+    transition: all .3s ease-in;   
+}
+
 .box:hover {
     box-shadow: 0 0 5px 1px #000;
 } 
